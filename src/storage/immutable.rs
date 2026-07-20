@@ -107,6 +107,7 @@ impl Storage {
     ///
     /// If the identified [`prometheus`] `M`etric doesn't comply with the
     /// labeling of the provided [`metrics::Key`].
+    #[must_use]
     pub fn get_metric<M>(
         &self,
         key: &metrics::Key,
