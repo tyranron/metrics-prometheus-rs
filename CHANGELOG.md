@@ -6,6 +6,20 @@ All user visible changes to this project will be documented in this file. This p
 
 
 
+## [0.11.2] · 2026-07-23
+[0.11.2]: https://github.com/tyranron/metrics-prometheus-rs/tree/v0.11.2
+
+[Diff](https://github.com/tyranron/metrics-prometheus-rs/compare/v0.11.1...v0.11.2)
+
+### Changed
+
+- Updated to 0.7 version of `sealed` crate to fully get rid of `syn` 2.0. ([#21])
+
+[#21]: https://github.com/tyranron/metrics-prometheus-rs/pull/21
+
+
+
+
 ## [0.11.1] · 2026-04-23
 [0.11.1]: https://github.com/tyranron/metrics-prometheus-rs/tree/v0.11.1
 
